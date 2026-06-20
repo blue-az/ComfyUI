@@ -24,3 +24,10 @@ web_custom_versions/
 openapi.yaml
 filtered-openapi.yaml
 uv.lock
+
+# Ignore large tokenizer data assets
+**/tokenizer.json
+**/vocab.json
+**/merges.txt
+**/tokenizer.model
+**/vocab.txt
